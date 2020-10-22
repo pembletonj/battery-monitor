@@ -8,3 +8,8 @@ A small bash script to monitor the battery and send a notification when certain 
 ## To Do
 * Dynamically change how long to wait until battery is checked again based on how quickly it is charging/discharging.
 
+## Configuration
+Settings can be changed by modifying the low_level, high_level, and sleep_time variables at the top of the script.
+* low_level: Notifications will be sent if the battery level is below this and discharging.
+* high_level: Notifications will be sent if the battery level is above this and charging.
+* sleep_time: The interval between when the battery is checked.
